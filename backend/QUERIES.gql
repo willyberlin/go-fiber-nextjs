@@ -1,0 +1,32 @@
+# get rooms
+
+query {
+  rooms {
+    id
+    name
+    description
+    hasDesks
+    desksCount
+    isBooked
+  }
+}
+
+# add room
+
+mutation {
+  createRoom(
+    roomInput: {
+      name: "Test Room"
+      description: "Playground generated room"
+      hasDesks: true
+      desksCount: 3
+    }
+  ) {
+    id
+    name
+    description
+    hasDesks
+    desksCount
+    isBooked
+  }
+}

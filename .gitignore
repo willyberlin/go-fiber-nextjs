@@ -1,0 +1,57 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# IDEs
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+.vs/
+.vs2019/
+
+# Environment files
+.env
+.env.local
+
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Python
+*.pyc
+*.pyo
+__pycache__/
+
+# Logs
+*.log
+
+# Temporary files
+*.swp
+*.swo
+*.swn
+*.bak
+*.tmp
+
+# Xcode
+DerivedData/
+*.xccheckout
+*.xcuserstate
+*.xcworkspace
+*.xcodeproj/project.xcworkspace
+*.xcodeproj/xcuserdata
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+
+# Windows
+Thumbs.db
+Desktop.ini
